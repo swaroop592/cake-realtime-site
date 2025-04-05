@@ -2,6 +2,7 @@ const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
 const cors = require("cors");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors());
@@ -33,6 +34,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3000, () => {
-  console.log("Backend running on port 3000");
+server.listen(PORT, () => {
+  console.log(`Backend running on port ${PORT}`);
 });
