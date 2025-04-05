@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "serve -s ."
+    "start": "serve -s . -1 10000",
+    "build": "echo 'No Build required'"
   },
   "keywords": [],
   "author": "",
