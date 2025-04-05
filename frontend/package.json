@@ -4,8 +4,12 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "serve -s . -1 10000",
     "build": "echo 'No Build required'"
+=======
+    "start": "npx serve -s ."
+>>>>>>> 06ad34a86377e762c4dea2f7095b2d7be360f95e
   },
   "keywords": [],
   "author": "",
